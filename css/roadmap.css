@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(216, 233, 183);
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 30px;
+}
+
+ul{
+    margin: 0;
+}
+
+.site-name{
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+.frontend-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px 100px;
+}
+
+#frontend-picture{
+    width: 400px;
+    margin-right: 50px;
+}
+
+.category> h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+
+}
+
+.category>p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size: 15px;    
+    line-height: 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.backend-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 20px 100px;
+}
+
+#backend-picture{
+    width: 400px;
+    margin-right: 50px;
+}
+
+.wishlist{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 30px 100px;
+}
+
+.more-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 100px 150px;
+    margin-top: 20px;
+}
+
+.more{
+    width: 1000px;
+    height: 150px;
+    margin: 10px;
+    padding: 30px;
+    background-color: #6bdf77;
+    overflow: hidden;
+    box-shadow: 0 35px 77px -17px rgba(0, 0, 0, .4);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    align-items: center;
+
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #C2B4AB;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.more-intro{
+    margin-left: 30px;
+}
+
+
+.more-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.more-exp{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300px;
+    font-size: 16px;
+    margin: 0px;
+}
+
+a:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}

@@ -1,0 +1,166 @@
+body{
+    background-color: #b3ede9;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*navigator*/
+
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin:0;
+    margin-left: 15px;
+}
+
+ul{
+    margin:0;
+}
+
+.site-name{
+    margin:0;
+    font-family: 'Gentium Plus', serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: #0b4753;
+}
+
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+/* INFO Section*/
+
+
+/*profile-section*/
+
+.profile-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 100px 100px;
+}
+
+
+#profile-picture{
+    width: 400px;
+    margin-right: 60px;
+}
+
+.introduction>h2{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+
+.introduction>p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+/*value section*/
+
+.value-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 30px 100px;
+}
+
+.value-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 100px 150px;
+    margin-top: 20px;
+}
+
+.value{
+    width: 1000px;
+    height: 150px;
+    margin: 10px;
+    padding: 30px;
+    background-color: #b3ede9;
+    overflow: hidden;
+    box-shadow: 0 35px 77px -17px rgba(0, 0, 0, .4);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    align-items: center;
+
+}
+
+
+.value-icon{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #C2B4AB;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.value-intro{
+    margin-left: 30px;
+}
+
+
+.value-name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.value-exp{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300px;
+    font-size: 16px;
+    margin: 0px;
+    transform: translateX(1000px);
+    transition-delay: .1s;
+    transition-duration: .6s;
+    opacity: .3;
+}
+
+.value:hover .value-exp{
+    transform: translateX(0);
+    opacity: 1;
+}
+
+
+
+
+
+

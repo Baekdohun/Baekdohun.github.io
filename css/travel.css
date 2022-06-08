@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;  
+}
+a:hover{
+    color: rgb(172, 237, 206);
+    transition: 0.3s;
+  }
+
+body{
+    font-family: "나눔고딕", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.header{
+    width: 100%;
+    height: 90px;
+}
+.header h1{
+    float: left;
+    padding-top: 28px;
+    margin-left: 30px;
+}
+
+.section1 {
+    width: 100%;
+    height: 654px;
+    background: url(/img/travel.jpeg) no-repeat center top;
+    background-size: cover;
+}
+
+.section1 h2{
+    display: block;
+    padding: 95px 0 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+}
+
+.section1 p{
+    color: #fff;
+    text-align: right;
+    padding-bottom: 75px;
+    margin-right: 35px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.section1 .block{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.section1 .block .quick{
+    float: left;
+    width: 200px;
+    height: 200px; 
+    margin: 0 100px;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(44, 44, 42)
+    
+}
+
+.section1 .block .first{
+    background-image: url(/img/hongkong.png);
+}
+.section1 .block .second{
+    background-image: url(/img/guam.png);
+}
+.section1 .block .third{
+    background-image: url(/img/saipan.png);
+}
+
+.section1 .block .last{
+    margin-right: 0px;
+    background-image: url(/img/danang.png);
+}
+
+.section1 .quick h3{
+    margin: 20px 30px 30px 30px;
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+}
+
+.section1 .quick p{
+    margin: 0 30px;
+    font-size: 15px;
+    color: #333;
+    text-align: left;
+    letter-spacing: -2px;
+    
+}
+
+
+
+.section2{
+    width: 1600px;
+    height: 150px;
+    margin: 10px;
+    padding: 30px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 35px 77px -17px rgba(0, 0, 0, .4);
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+.section2 div{
+    width: 480px;
+    padding: 80px 0;
+    padding-right: 120px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.section2 a{
+    font-weight: bold;
+}
+
+.travel-icon{
+    width: 70px;
+    height: 70px;
+    border: 2px solid #C2B4AB;
+    padding: 15px;
+}
+
+.value-menu{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
